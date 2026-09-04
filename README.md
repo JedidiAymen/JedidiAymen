@@ -1,16 +1,9 @@
 <div align="center">
 
-```text
-▗▄▖  ▗▖  ▗▖▗▖  ▗▖▗▄▄▄▖▗▖  ▗▖
-▐▌ ▐▌▐▛▚▖▐▌▐▛▚▖▐▌  █  ▐▛▚▞▜▌
-▐▛▀▜▌▐▌ ▝▜▌▐▌ ▝▜▌  █  ▐▌  ▐▌
-▐▌ ▐▌▐▌  ▐▌▐▌  ▐▌▗▄█▄▖▐▌  ▐▌
-```
-
 # Aymen Jedidi
 
 **Computer Science Engineering Student @ ENSI**  
-`Arch Linux` · `Hyprland vibes` · `Backend systems` · `Applied AI/ML` · `Developer tooling`
+`Backend systems` · `Applied AI/ML` · `Developer tooling` · `Full-stack engineering`
 
 <a href="mailto:aymen.jedidi@ensi-uma.tn"><img src="https://img.shields.io/badge/email-contact-a6e22e?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 <a href="https://github.com/JedidiAymen"><img src="https://img.shields.io/badge/github-JedidiAymen-1f2428?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
@@ -105,16 +98,45 @@ Public validation work around AnsibleGuard's static-analysis pipeline and SARIF 
 
 ## workspace::stack
 
-<p align="center">
-  <img src="./assets/stack.svg" alt="Engineering stack" width="100%" />
+### AI, Machine Learning & Data
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark" alt="AI and ML stack" />
 </p>
 
-```text
-backend      :: NestJS · FastAPI · PostgreSQL · PostGIS · Redis · Drizzle · REST APIs
-ai/ml        :: Python · pandas · scikit-learn · PyTorch · XGBoost · LightGBM · CatBoost
-frontend     :: React · TypeScript · Vite · Tailwind CSS · shadcn/ui · Motion · GSAP
-workflow     :: Git · GitHub · Arch Linux · Hyprland-style setup · Neovim · Docker Compose
-```
+`pandas` · `scikit-learn` · `XGBoost` · `LightGBM` · `CatBoost` · `model evaluation` · `probability calibration`
+
+### Backend & APIs
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nestjs,nodejs,fastapi,postgres,redis&theme=dark" alt="Backend stack" />
+</p>
+
+`NestJS` · `FastAPI` · `REST APIs` · `PostgreSQL` · `PostGIS` · `Redis` · `Drizzle ORM`
+
+### Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind&theme=dark" alt="Frontend stack" />
+</p>
+
+`React` · `TypeScript` · `JavaScript` · `Vite` · `Tailwind CSS` · `shadcn/ui` · `Motion` · `GSAP`
+
+### DevOps, Linux & Workflow
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,bash,neovim&theme=dark" alt="DevOps and workflow stack" />
+</p>
+
+`Docker` · `Docker Compose` · `Git/GitHub` · `Arch Linux` · `Hyprland` · `Bash` · `Neovim`
+
+<details>
+<summary><strong>more languages & tools</strong></summary>
+<br />
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=c,cpp,java&theme=dark" alt="Additional languages" />
+</p>
+
+`C` · `C++` · `Java` · `SQL` · `PL/SQL` · `Ansible` · `SARIF` · `Oracle`
+
+</details>
 
 ## workspace::learning
 
