@@ -1,175 +1,193 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/header.svg" alt="Aymen Jedidi — Hyprland inspired profile header" width="100%" />
+</p>
 
-```text
-▗▄▖  ▗▖  ▗▖▗▖  ▗▖▗▄▄▄▖▗▖  ▗▖
-▐▌ ▐▌▐▛▚▖▐▌▐▛▚▖▐▌  █  ▐▛▚▞▜▌
-▐▛▀▜▌▐▌ ▝▜▌▐▌ ▝▜▌  █  ▐▌  ▐▌
-▐▌ ▐▌▐▌  ▐▌▐▌  ▐▌▗▄█▄▖▐▌  ▐▌
-```
-
-# Aymen Jedidi
-
-**Computer Science Engineering Student @ ENSI**  
-`Arch Linux` · `Hyprland vibes` · `Backend systems` · `Applied AI/ML` · `Developer tooling`
-
-<a href="mailto:aymen.jedidi@ensi-uma.tn"><img src="https://img.shields.io/badge/email-contact-a6e22e?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
-<a href="https://github.com/JedidiAymen"><img src="https://img.shields.io/badge/github-JedidiAymen-1f2428?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-<a href="https://github.com/JedidiAymen/Portfolio"><img src="https://img.shields.io/badge/portfolio-workspace-c7f464?style=for-the-badge&logo=vercel&logoColor=111111" alt="portfolio" /></a>
-
-</div>
+<p align="center">
+  <a href="#about"><code>01 / about</code></a>&nbsp;&nbsp;
+  <a href="#work"><code>02 / work</code></a>&nbsp;&nbsp;
+  <a href="#stack"><code>03 / stack</code></a>&nbsp;&nbsp;
+  <a href="#learning"><code>04 / learning</code></a>&nbsp;&nbsp;
+  <a href="#system"><code>05 / system</code></a>&nbsp;&nbsp;
+  <a href="#contact"><code>06 / contact</code></a>
+</p>
 
 ---
 
-```bash
-aymen@hyprland ~> fastfetch
-OS          : Arch Linux
-WM          : Hyprland-inspired workflow
-Editor      : Neovim
-Focus       : backend systems, applied ML, infra/tooling, full-stack products
-Location    : Tunisia
-Status      : open to software engineering / AI opportunities
-```
+<a id="about"></a>
+## 01 // about
 
-## workspace::about
+Computer Science Engineering student at **ENSI**. I like building systems far enough end-to-end that I can understand the trade-offs instead of only touching one layer.
+
+My strongest interests are **backend engineering**, **applied machine learning**, **developer tooling / static analysis**, **data-intensive systems**, and **full-stack product engineering**. I care about clean architecture, reproducible experiments, useful documentation, and knowing what is actually happening under the abstraction.
 
 ```text
-I build software end-to-end: APIs, data pipelines, ML systems, developer tools,
-infrastructure, and product interfaces.
-
-I like understanding what happens under the abstraction:
-from database schema and API flows to model evaluation, deployment, and UX.
+location      :: Tunisia
+current mode  :: build -> measure -> refactor
+editor        :: Neovim
+platform      :: Arch Linux / Hyprland
+open to       :: international software engineering + AI opportunities
 ```
 
-<details>
-<summary><strong>workspace::now</strong> — what I am actively building</summary>
-<br />
+<p align="center">
+  <img src="./assets/signal.svg" alt="Current engineering signal" width="100%" />
+</p>
 
-- **AnsibleGuard** — static analysis and research-oriented tooling for Ansible / Infrastructure as Code.
-- **Smart CapEx** — telecom investment platform with backend architecture, geospatial data, analytics, and ML services.
-- **Applied ML projects** — probabilistic modeling, evaluation, leakage-safe validation, and ensembling.
-- **System design growth** — caching, queues, observability, testing, reliability, and data-intensive systems.
-
-</details>
-
-## workspace::featured
+<a id="work"></a>
+## 02 // selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### [`smart-capex`](https://github.com/JedidiAymen/Smart-Capex)
-Telecom investment decision platform combining product thinking, backend architecture, analytics, geospatial context, and ML-backed workflows.
-
-`React` `TypeScript` `NestJS` `FastAPI` `PostgreSQL/PostGIS` `Redis` `Drizzle` `Docker`
-
+  <a href="https://github.com/JedidiAymen/Smart-Capex"><strong>Smart CapEx</strong></a><br><br>
+  Telecom investment decision platform connecting data ingestion, network pressure, forecasts, candidate interventions, optimized portfolios, technical review, finance validation, and committee approval.<br><br>
+  <code>React</code> <code>TypeScript</code> <code>NestJS</code> <code>FastAPI</code><br>
+  <code>PostgreSQL/PostGIS</code> <code>Redis</code> <code>Drizzle</code> <code>Docker</code><br><br>
+  <a href="https://github.com/JedidiAymen/Smart-Capex">open repository -></a>
 </td>
 <td width="50%" valign="top">
-
-### [`ai-smart-checkout`](https://github.com/JedidiAymen/ai-smart-checkout)
-AI-driven checkout optimization system focused on risk scoring, payment friction, abandonment prediction, routing, and trust-aware flows.
-
-`Python` `Machine Learning` `FastAPI` `React` `XGBoost` `PostgreSQL`
-
+  <a href="https://github.com/JedidiAymen/ai-smart-checkout"><strong>AI Smart Checkout</strong></a><br><br>
+  ML-driven checkout optimization around fraud risk, customer trust, payment friction, abandonment prediction, routing decisions, and an AI shopping assistant.<br><br>
+  <code>Python</code> <code>Machine Learning</code> <code>FastAPI</code> <code>React</code><br>
+  <code>XGBoost</code> <code>PostgreSQL</code> <code>CrewAI</code><br><br>
+  <a href="https://github.com/JedidiAymen/ai-smart-checkout">open repository -></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [`gods-5.0-website`](https://github.com/JedidiAymen/GODS-5.0-website)
-Motion-heavy event website for IEEE ENSI SB's data-science hackathon, with interactive sections, registration flows, and animated UI work.
-
-`React` `TypeScript` `Tailwind CSS` `GSAP` `Motion` `Zod`
-
+  <a href="https://github.com/JedidiAymen/ansibleguard-sarif-validation"><strong>AnsibleGuard / IaC research</strong></a><br><br>
+  Static-analysis work for Ansible and Infrastructure as Code, focused on smell detection, research validation, quality rules, and SARIF-compatible output.<br><br>
+  <code>Python</code> <code>Ansible</code> <code>Static Analysis</code> <code>IaC</code> <code>SARIF</code><br><br>
+  <a href="https://github.com/JedidiAymen/ansibleguard-sarif-validation">open public validation repo -></a>
 </td>
 <td width="50%" valign="top">
-
-### [`ansibleguard-sarif-validation`](https://github.com/JedidiAymen/ansibleguard-sarif-validation)
-Public validation work around AnsibleGuard's static-analysis pipeline and SARIF output, connected to my broader research direction.
-
-`Python` `Ansible` `Static Analysis` `IaC` `SARIF`
-
+  <a href="https://github.com/JedidiAymen/GODS-5.0-website"><strong>GODS 5.0</strong></a><br><br>
+  Interactive website for IEEE ENSI Student Branch's data-science hackathon, with registration flows, event content, motion-heavy sections, and animated interactions.<br><br>
+  <code>React</code> <code>TypeScript</code> <code>Tailwind</code> <code>GSAP</code> <code>Motion</code> <code>Zod</code><br><br>
+  <a href="https://github.com/JedidiAymen/GODS-5.0-website">open repository -></a>
 </td>
 </tr>
 </table>
 
 <details>
-<summary><strong>workspace::project-map</strong> — what these projects say about me</summary>
-<br />
+<summary><strong>more project signal</strong> — what I am also working on</summary>
+<br>
 
-- **I like products with real structure**: frontend, backend, data, docs, and system thinking.
-- **I enjoy serious engineering**: APIs, schemas, queues, caching, validation, testing, and reproducibility.
-- **I am not only “AI”**: I also care about backend design, Linux workflow, developer experience, and maintainability.
-- **I learn by building**: each project is part of a bigger path toward stronger software engineering and research work.
+- **Penalty-kick outcome prediction** — leakage-safe validation, feature engineering, CatBoost / LightGBM families, calibration, and ensembling.
+- **Portfolio** — a software-engineer-first portfolio built with React, TypeScript, Tailwind, shadcn/ui, GSAP, and Motion.
+- **Linux workflow** — maintaining and refining a keyboard-driven Arch / Hyprland / Neovim environment.
+- **System design practice** — backend boundaries, caching, queues, databases, reliability, observability, and deployment trade-offs.
 
 </details>
 
-## workspace::stack
+<a id="stack"></a>
+## 03 // stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,react,nestjs,fastapi,postgres,redis,docker,git,linux,bash,pytorch&perline=12" alt="Core engineering stack" />
+  <img src="./assets/stack.svg" alt="Aymen's engineering stack" width="100%" />
 </p>
 
-```text
-backend      :: NestJS · FastAPI · PostgreSQL · PostGIS · Redis · Drizzle · REST APIs
-ai/ml        :: Python · pandas · scikit-learn · PyTorch · XGBoost · LightGBM · CatBoost
-frontend     :: React · TypeScript · Vite · Tailwind CSS · shadcn/ui · Motion · GSAP
-workflow     :: Git · GitHub · Arch Linux · Hyprland-style setup · Neovim · Docker Compose
-```
-
-## workspace::stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JedidiAymen&show_icons=true&hide_border=true&title_color=a6e22e&icon_color=a6e22e&text_color=c9d1d9&bg_color=0d1117" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JedidiAymen&layout=compact&hide_border=true&title_color=a6e22e&text_color=c9d1d9&bg_color=0d1117" alt="Top languages" />
-</div>
-
-## workspace::learning
-
 <details>
-<summary><strong>workspace::research-and-learning</strong></summary>
-<br />
+<summary><strong>expand full toolchain</strong></summary>
+<br>
 
-I am currently exploring the intersection of **software quality, Infrastructure as Code, applied machine learning, backend systems, and system design**.
+**Languages & foundations**  
+Python · TypeScript · JavaScript · C · C++ · SQL · PL/SQL · Bash
 
-### current reading
-- *Designing Data-Intensive Applications*
-- *System Design Interview — Vol. 1*
-- *System Design Interview — Vol. 2*
+**Backend & data**  
+NestJS · FastAPI · REST APIs · PostgreSQL · PostGIS · Redis · Drizzle ORM · MinIO
 
-### areas I care about
-- static analysis and quality tooling
-- applied ML and experiment rigor
-- data-intensive system design
-- reliable backend architecture
-- developer tooling and Linux workflows
+**AI / ML**  
+pandas · NumPy · scikit-learn · PyTorch · XGBoost · LightGBM · CatBoost · probability calibration · feature engineering · model evaluation
+
+**Frontend**  
+React · Vite · Tailwind CSS · shadcn/ui · Motion · GSAP · Zod
+
+**Infrastructure / engineering workflow**  
+Docker · Docker Compose · Git · GitHub · Ansible · SARIF · Linux · Arch Linux · Hyprland · Neovim · technical documentation · testing
 
 </details>
 
-## workspace::contact
+<a id="learning"></a>
+## 04 // research & learning
 
-- **Email** → [aymen.jedidi@ensi-uma.tn](mailto:aymen.jedidi@ensi-uma.tn)
-- **GitHub** → [@JedidiAymen](https://github.com/JedidiAymen)
-- **Portfolio repo** → [github.com/JedidiAymen/Portfolio](https://github.com/JedidiAymen/Portfolio)
+<table>
+<tr>
+<td width="50%" valign="top">
+<strong>Currently reading</strong><br><br>
+Designing Data-Intensive Applications<br>
+System Design Interview — Vol. 1<br>
+System Design Interview — Vol. 2
+</td>
+<td width="50%" valign="top">
+<strong>Current depth areas</strong><br><br>
+Static analysis / software quality<br>
+Infrastructure as Code research<br>
+Applied tabular ML<br>
+Backend architecture / system design<br>
+Reliable data-intensive applications
+</td>
+</tr>
+</table>
+
+I am deliberately trying to connect the layers: not just training a model, but understanding the data contract and serving path; not just building an API, but understanding persistence, caching, failure modes, observability, and deployment.
+
+<a id="system"></a>
+## 05 // system
+
+```bash
+$ fastfetch --profile
+OS        Arch Linux
+WM        Hyprland
+Editor    Neovim / LazyVim
+CLI       Bash + Git
+Containers Docker / Docker Compose
+Mindset   keyboard-first, reproducible, documented
+
+$ cat engineering.preferences
+small interfaces > hidden magic
+measured experiments > random tuning
+clear architecture > framework worship
+working product > pretty diagram only
+```
+
+<details>
+<summary><strong>why the Linux / Hyprland theme?</strong></summary>
+<br>
+
+It is not decoration only. My normal development setup is Linux-centric and keyboard-driven, so the profile is designed like a small workspace rather than a generic list of badges. The lime accent is the visual thread; the rest stays restrained so the projects remain the focus.
+
+</details>
+
+<a id="contact"></a>
+## 06 // contact
+
+<table>
+<tr>
+<td><strong>Email</strong></td>
+<td><a href="mailto:aymen.jedidi@ensi-uma.tn">aymen.jedidi@ensi-uma.tn</a></td>
+</tr>
+<tr>
+<td><strong>GitHub</strong></td>
+<td><a href="https://github.com/JedidiAymen">@JedidiAymen</a></td>
+</tr>
+<tr>
+<td><strong>Portfolio</strong></td>
+<td><a href="https://github.com/JedidiAymen/Portfolio">JedidiAymen/Portfolio</a></td>
+</tr>
+<tr>
+<td><strong>Availability</strong></td>
+<td>International software engineering / AI internships and opportunities</td>
+</tr>
+</table>
 
 ---
 
 <details>
-<summary><strong>workspace::hidden</strong> — do not click unless you know the legend</summary>
-<br />
-
-```text
-[L A Y M O U N A :: unlocked]
-
-A small lime-colored process is running in the background.
-It is friendly, a little chaotic, and probably debugging life with coffee.
-
-alias laymouna='echo 🍋 small lime energy detected'
-```
-
-<sub>easter egg loaded successfully.</sub>
-
+<summary><code>laymouna.service</code> — hidden process</summary>
+<br>
+<p align="center">
+  <img src="./assets/laymouna.svg" alt="Laymouna easter egg" width="100%" />
+</p>
 </details>
 
-<div align="center">
-  <sub>clean systems, thoughtful engineering, and a little lime energy at the edge of the terminal.</sub>
-</div>
+<p align="center"><sub>build carefully · measure what matters · keep the terminal clean</sub></p>
